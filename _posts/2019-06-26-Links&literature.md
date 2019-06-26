@@ -20,7 +20,6 @@ Some R code for modeling with left truncated and right/interval censored data [l
 Using L_BFGS-B to fit a Weibul model (includes gradient) [link](https://stackoverflow.com/questions/39747569/r-optim-l-bfgs-b-needs-finite-values-of-fn-weibull)
 
 Furthermore
-
 * [Large-Scale Parametric Survival Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796130/#APP1) on regularized parametric survival modeling
 * [Multilevel mixed effects parametric survival analysis](https://www.stata.com/meeting/uk13/abstracts/materials/uk13_crowther.pdf), a lecture by Michael Crowther
 * A review on [Survival analysis with high-dimensional covariates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806549/) by Witten and Tibshirani
