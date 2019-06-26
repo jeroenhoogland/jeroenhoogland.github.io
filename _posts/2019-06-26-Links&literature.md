@@ -29,6 +29,7 @@ Furthermore
 ## Regularization
 
 * Trevor Hastie's [website](https://web.stanford.edu/~hastie/index.html) contains an [overview](https://web.stanford.edu/~hastie/swData.htm) of some useful R packages he's worked on including ``gamsel``, ``glinternet``, and ``glmnet``. 
+* [Statistics for High-Dimensional Data](https://link.springer.com/book/10.1007%2F978-3-642-20192-9) by Peter BühlmannSara van de Geer
 * [grpreg](https://cran.r-project.org/web/packages/grpreg/grpreg.pdf) package by Patrick Breheny
 * Solving ridge for a linear model based on just least squares [whuber](https://stats.stackexchange.com/questions/69205/how-to-derive-the-ridge-regression-solution)
 * Hand coding of penalized logistic regression in R [link](https://datascienceplus.com/logistic-regression-regularized-with-optimization/) and/or [link](http://pingax.com/logistic-regression-r-step-step-implementation-part-2/?utm_source=rss&utm_medium=rss&utm_campaign=logistic-regression-r-step-step-implementation-part-2)
@@ -57,6 +58,8 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * A nice post on [Which optimization algorithm to choose?](https://cran.r-project.org/web/packages/fitdistrplus/vignettes/Optimalgo.html#log-likelihood-function-and-its-gradient-for-beta-distribution)
 * [Ben Bolker's MLE package](https://cran.r-project.org/web/packages/bbmle/vignettes/mle2.pdf) ``bbmle`` 
 * IRLS for logistic regression [link](https://stats.stackexchange.com/questions/344309/why-using-newtons-method-for-logistic-regression-optimization-is-called-iterati)
+* Introduction to the use of [Langrange multipliers](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf)
+* Some introductory lectures on the [Lagrangian](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/the-lagrangian)
 
 
 ## General background information on regression
