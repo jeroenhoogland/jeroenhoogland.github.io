@@ -25,6 +25,10 @@ Furthermore
 * A review on [Survival analysis with high-dimensional covariates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806549/) by Witten and Tibshirani
 
 
+## Subgroup analysis based on RCT data
+
+A comparison of several approaches to predict most beneficial treatment class (Elastic Net, ridge-regularized Cox proportional hazards model, RandomForest, linear Support Vector Machine (SVM), [Predictive Analysis of Clinical Trials](https://CRAN.R-project.org/package=pact)) [link](https://doi.org/10.1101/338996)
+
 
 ## Regularization
 
