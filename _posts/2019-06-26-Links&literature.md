@@ -15,9 +15,11 @@ Paul Lambert has a nice [website](https://pclambert.net) that includes
 ([number and location of knots](https://pclambert.net/interactivegraphs/spline_eg/spline_eg)) and 
 [mixture Weibull distributions](https://pclambert.net/interactivegraphs/mixture_weibull/mixture_weibull).
 
+Piece-wise constant hazard model formulated as a Poisson regression model [link](https://data.princeton.edu/wws509/notes/c7s4)
+
 Some R code for modeling with left truncated and right/interval censored data [link](http://blogs2.datall-analyse.nl/2016/02/19/rcode_left_truncated_censored_data/#more-294) including the likelihood definition and ``optim`` routine. 
 
-Using L_BFGS-B to fit a Weibul model (includes gradient) [link](https://stackoverflow.com/questions/39747569/r-optim-l-bfgs-b-needs-finite-values-of-fn-weibull)
+Using L-BFGS-B to fit a Weibul model (includes gradient) [link](https://stackoverflow.com/questions/39747569/r-optim-l-bfgs-b-needs-finite-values-of-fn-weibull)
 
 Furthermore
 * [Large-Scale Parametric Survival Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796130/#APP1) on regularized parametric survival modeling
