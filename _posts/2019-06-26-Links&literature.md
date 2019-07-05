@@ -27,6 +27,7 @@ Furthermore
 * [Large-Scale Parametric Survival Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3796130/#APP1) on regularized parametric survival modeling
 * [Multilevel mixed effects parametric survival analysis](https://www.stata.com/meeting/uk13/abstracts/materials/uk13_crowther.pdf), a lecture by Michael Crowther
 * A review on [Survival analysis with high-dimensional covariates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806549/) by Witten and Tibshirani
+* Marginal effect in JM context [Floor van Oudenhoven](https://floorvanoudenhoven.shinyapps.io/presentatie/#29)
 
 
 ## Subgroup analysis based on RCT data
