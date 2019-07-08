@@ -8,6 +8,9 @@ tags: [survival, test]
 
 Just trying to tidy up my browser and prevent further piling of open tabs of 'things to do'...
 
+## General information on maximum likelihood estimation
+[Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
+
 ## Survival 
 
 Paul Lambert has a nice [website](https://pclambert.net) that includes 
