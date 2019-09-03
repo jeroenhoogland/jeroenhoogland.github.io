@@ -79,6 +79,8 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
 * [MAMI package](http://mami.r-forge.r-project.org/MAMI_manual.pdf) in R, based on Schomaker, M. and C. Heumann (2014). Model selection and model averaging after multiple imputation. Computational Statistics and Data Analysis 71, 758–770.
 
+## Speed and R
+* Is R fast enough? An example on sorting: [link](http://predictiveecology.org/2015/04/28/Is-R-fast-enough-02.html)
 
 ## General background information on regression
 
