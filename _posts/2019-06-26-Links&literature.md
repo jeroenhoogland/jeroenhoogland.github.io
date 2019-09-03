@@ -87,7 +87,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [GLMs](https://www.sagepub.com/sites/default/files/upm-binaries/21121_Chapter_15.pdf)
 * [Slides for 'Advanced Regression' course](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes.html) (University of Kentucky) including general information on [Maximum likelihood estimation](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/1-29.pdf) and [Weighted least squares](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/2-7.pdf) and [GLM estimation and model fitting](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/2-19.pdf).
 
-
+## Math stuff
+* (World Wide) Multivariable calculus [lectures](https://www.youtube.com/playlist?list=PLgKTLlHQn9510xXzi9tlZYU38XFs279qv) and [textbook](http://centerofmath.org/textbooks/multicalc/index.html)
+* [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
 
 
 
