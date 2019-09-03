@@ -34,6 +34,9 @@ Furthermore
 
 *  C-statistics for censored survival data [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079915/)
 
+## Missing data
+* Stef van Buuren's most recent version of [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-JM.html)
+
 
 ## Subgroup analysis based on RCT data
 
