@@ -32,6 +32,8 @@ Furthermore
 * A review on [Survival analysis with high-dimensional covariates](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4806549/) by Witten and Tibshirani
 * Marginal effect in JM context [Floor van Oudenhoven](https://floorvanoudenhoven.shinyapps.io/presentatie/#29)
 
+*  C-statistics for censored survival data [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079915/)
+
 
 ## Subgroup analysis based on RCT data
 
@@ -65,13 +67,17 @@ Simon Wood's [website](https://people.maths.bris.ac.uk/~sw15190/) contains links
 The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/splines2-intro.html) provides functions constructing B-splines, integral of B-splines, monotone splines (M-splines) and its integral (I-splines), convex splines (C-splines), and their derivatives.
 
 
-## Optmization
+## Optimization
 
 * A nice post on [Which optimization algorithm to choose?](https://cran.r-project.org/web/packages/fitdistrplus/vignettes/Optimalgo.html#log-likelihood-function-and-its-gradient-for-beta-distribution)
 * [Ben Bolker's MLE package](https://cran.r-project.org/web/packages/bbmle/vignettes/mle2.pdf) ``bbmle`` 
 * IRLS for logistic regression [link](https://stats.stackexchange.com/questions/344309/why-using-newtons-method-for-logistic-regression-optimization-is-called-iterati)
 * Introduction to the use of [Langrange multipliers](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf)
 * Some introductory lectures on the [Lagrangian](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/the-lagrangian)
+
+## Variable selection after multiple imputation
+* [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
+* [MAMI package](http://mami.r-forge.r-project.org/MAMI_manual.pdf) in R, based on Schomaker, M. and C. Heumann (2014). Model selection and model averaging after multiple imputation. Computational Statistics and Data Analysis 71, 758–770.
 
 
 ## General background information on regression
