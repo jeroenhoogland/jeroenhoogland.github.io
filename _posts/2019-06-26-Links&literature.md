@@ -11,6 +11,9 @@ Just trying to tidy up my browser and prevent further piling of open tabs of 'th
 ## General information on maximum likelihood estimation
 [Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
 
+## Classification vs Prediction
+Frank Harrell's [blog post](https://www.fharrell.com/post/classification/)
+
 ## Survival 
 
 Paul Lambert has a nice [website](https://pclambert.net) that includes 
