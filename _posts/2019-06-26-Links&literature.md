@@ -96,6 +96,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Math stuff
 * (World Wide) Multivariable calculus [lectures](https://www.youtube.com/playlist?list=PLgKTLlHQn9510xXzi9tlZYU38XFs279qv) and [textbook](http://centerofmath.org/textbooks/multicalc/index.html)
 * [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
+* Nice and simple introduction to [moment generating functions](https://towardsdatascience.com/moment-generating-function-explained-27821a739035)
 
 ## Visualizing Nested and Cross Random Effects
 * [Josh Errickson](http://errickson.net/stats-notes/vizrandomeffects.html)
