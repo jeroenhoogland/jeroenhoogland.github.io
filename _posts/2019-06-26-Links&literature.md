@@ -37,13 +37,17 @@ Furthermore
 
 *  C-statistics for censored survival data [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079915/)
 
+* Survival intro slides [Stanford](https://web.stanford.edu/~lutian/coursepdf/slideweek1.pdf)
+
 ## Missing data
 * Stef van Buuren's most recent version of [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-JM.html)
 
 
-## Subgroup analysis based on RCT data
+## Subgroup analysis / treatment-interactions
 
 A comparison of several approaches to predict most beneficial treatment class (Elastic Net, ridge-regularized Cox proportional hazards model, RandomForest, linear Support Vector Machine (SVM), [Predictive Analysis of Clinical Trials](https://CRAN.R-project.org/package=pact)) [link](https://doi.org/10.1101/338996)
+
+* A Simple Method for Estimating Interactions Between a Treatment and a Large Number of Covariates by [Lu Tian, Ash A. Alizadeh, Andrew J. Gentles & Robert Tibshirani](https://www.tandfonline.com/doi/pdf/10.1080/01621459.2014.951443?needAccess=true)
 
 
 ## Regularization
@@ -54,6 +58,7 @@ A comparison of several approaches to predict most beneficial treatment class (E
 * Solving ridge for a linear model based on just least squares [whuber](https://stats.stackexchange.com/questions/69205/how-to-derive-the-ridge-regression-solution)
 * Hand coding of penalized logistic regression in R [link](https://datascienceplus.com/logistic-regression-regularized-with-optimization/) and/or [link](http://pingax.com/logistic-regression-r-step-step-implementation-part-2/?utm_source=rss&utm_medium=rss&utm_campaign=logistic-regression-r-step-step-implementation-part-2)
 * [Lecture notes on ridge regression](https://arxiv.org/pdf/1509.09169;Lecture) 
+* Post-double-selection LASSO [slides](https://statalasso.github.io/pdf/SwissStataConference2018_AhrensSchaffer.pdf)
 
 
 ## Generalized additive modeling
@@ -89,7 +94,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * Is R fast enough? An example on sorting: [link](http://predictiveecology.org/2015/04/28/Is-R-fast-enough-02.html)
 
 ## General background information on regression
-
+* Logistic regression basics, numerical optimization, IRLS, GAM and more [Logistic regression chapter](https://www.stat.cmu.edu/~cshalizi/uADA/12/lectures/ch12.pdf)
 * [GLMs](https://www.sagepub.com/sites/default/files/upm-binaries/21121_Chapter_15.pdf)
 * [Slides for 'Advanced Regression' course](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes.html) (University of Kentucky) including general information on [Maximum likelihood estimation](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/1-29.pdf) and [Weighted least squares](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/2-7.pdf) and [GLM estimation and model fitting](https://web.as.uky.edu/statistics/users/pbreheny/760/S13/notes/2-19.pdf).
 
@@ -105,10 +110,21 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * In a multi-level model, [what are the practical implications of estimating versus not-estimating random effect correlation parameters?](https://stats.stackexchange.com/questions/49832/in-a-multi-level-model-what-are-the-practical-implications-of-estimating-versus/104054#104054)
 * The effect of number of clusters and cluster size on statistical power and Type I error rates when testing random effects variance components in multilevel linear and logistic regression models [https://doi.org/10.1080/00949655.2018.1504945](https://doi.org/10.1080/00949655.2018.1504945)
 
+## Assessing prediction model performance
+* Steyerberg et al. [Assessing the performance of prediction models: a framework for some traditional and novel measures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575184/)
+* [Consistent Estimation of the Expected Brier Scorein General Survival Models with Right-Censored Event Times](https://onlinelibrary.wiley.com/doi/epdf/10.1002/bimj.200610301)
+
+
 ## Stan
 * [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package.
 * [splines](https://mc-stan.org/users/documentation/case-studies/splines_in_stan.html) in stan.
 
+## Data Sharing
+* [NEJM on data sharing](https://www.nejm.org/data-sharing)
+* [BMJ](https://bmjopen.bmj.com/content/9/8/e032334) on data sharing
+
+## Fun stuff
+* [Stein's paradox](https://en.wikipedia.org/wiki/Stein%27s_example)
 
 
 
