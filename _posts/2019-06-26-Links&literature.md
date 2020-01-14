@@ -97,6 +97,11 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * (World Wide) Multivariable calculus [lectures](https://www.youtube.com/playlist?list=PLgKTLlHQn9510xXzi9tlZYU38XFs279qv) and [textbook](http://centerofmath.org/textbooks/multicalc/index.html)
 * [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
 
+## Visualizing Nested and Cross Random Effects
+* [Josh Errickson](https://github.com/jeroenhoogland/jeroenhoogland.github.io/edit/master/_posts/2019-06-26-Links&literature.md)
+
+
+
 
 
 
