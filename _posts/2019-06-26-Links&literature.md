@@ -98,8 +98,12 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
 * Nice and simple introduction to [moment generating functions](https://towardsdatascience.com/moment-generating-function-explained-27821a739035)
 
-## Visualizing Nested and Cross Random Effects
-* [Josh Errickson](http://errickson.net/stats-notes/vizrandomeffects.html)
+## Multi-level stuff
+* [Visualizing Nested and Cross Random Effects](http://errickson.net/stats-notes/vizrandomeffects.html)
+* [Using R and lme/lmer to fit different two- and three-level longitudinal models](https://rpsychologist.com/r-guide-longitudinal-lme-lmer)
+* [Singular random-effect covariance matrices](https://stats.stackexchange.com/questions/323273/what-to-do-with-random-effects-correlation-that-equals-1-or-1)
+* In a multi-level model, [what are the practical implications of estimating versus not-estimating random effect correlation parameters?](https://stats.stackexchange.com/questions/49832/in-a-multi-level-model-what-are-the-practical-implications-of-estimating-versus/104054#104054)
+* The effect of number of clusters and cluster size on statistical power and Type I error rates when testing random effects variance components in multilevel linear and logistic regression models [https://doi.org/10.1080/00949655.2018.1504945](https://doi.org/10.1080/00949655.2018.1504945)
 
 ## Stan
 * [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package.
