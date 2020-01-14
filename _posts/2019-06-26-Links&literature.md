@@ -101,8 +101,8 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Visualizing Nested and Cross Random Effects
 * [Josh Errickson](http://errickson.net/stats-notes/vizrandomeffects.html)
 
-
-
+## Stan
+* [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package
 
 
 
