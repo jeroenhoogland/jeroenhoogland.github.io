@@ -98,7 +98,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
 
 ## Visualizing Nested and Cross Random Effects
-* [Josh Errickson](https://github.com/jeroenhoogland/jeroenhoogland.github.io/edit/master/_posts/2019-06-26-Links&literature.md)
+* [Josh Errickson](http://errickson.net/stats-notes/vizrandomeffects.html)
 
 
 
