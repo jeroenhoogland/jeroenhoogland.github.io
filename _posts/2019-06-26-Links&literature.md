@@ -102,7 +102,8 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [Josh Errickson](http://errickson.net/stats-notes/vizrandomeffects.html)
 
 ## Stan
-* [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package
+* [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package.
+* [splines](https://mc-stan.org/users/documentation/case-studies/splines_in_stan.html) in stan.
 
 
 
