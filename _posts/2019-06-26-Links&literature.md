@@ -126,6 +126,13 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Fun stuff
 * [Stein's paradox](https://en.wikipedia.org/wiki/Stein%27s_example)
 
+## MIT Stuff
+* [Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm) and the accompanying book and [website](http://math.mit.edu/~gs/learningfromdata/) including solutions to selected problems.
+* [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
+
+## Julia
+* Learning Julia [link](https://juliacomputing.com/training/#training-2).
+* Julia academy courses to get things started [link](https://juliaacademy.com)
 
 
 
