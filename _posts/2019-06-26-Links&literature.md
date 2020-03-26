@@ -43,6 +43,9 @@ Furthermore
 
 * Simulating right censored survival data in R [simsurv](https://cran.r-project.org/web/packages/simsurv/vignettes/simsurv_usage.html)
 
+## Bayesian Regression
+* [bamlss: A Lego Toolbox for Flexible Bayesian Regression (and Beyond)](https://arxiv.org/pdf/1909.11784.pdf)
+
 ## Missing data
 * Stef van Buuren's most recent version of [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-JM.html)
 
@@ -93,6 +96,10 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * Introduction to the use of [Langrange multipliers](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf)
 * Some introductory lectures on the [Lagrangian](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/the-lagrangian)
 * Optimization problems constrained by parameter sums [link](http://optimizer.r-forge.r-project.org/sumscale16.pdf)
+* Overview of optimers in R [link](https://hwborchers.lima-city.de/Presents/ROptimSlides4.pdf)
+* Goeman's [penalized](https://cran.r-project.org/web/packages/penalized/penalized.pdf) package for R.
+* Regularization Paths for Regression Models with Grouped Covariates as provided in R package [grpreg](https://cran.r-project.org/web/packages/grpreg/grpreg.pdf)
+* [Convex optimization in R](http://www.econ.uiuc.edu/~roger/research/conopt/coptr.pdf)
 
 ## Variable selection after multiple imputation
 * [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
@@ -124,6 +131,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 
 ## Stan
+* Stan Reference Manual [link](https://mc-stan.org/docs/2_21/reference-manual/index.html)
 * [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package.
 * [splines](https://mc-stan.org/users/documentation/case-studies/splines_in_stan.html) in stan.
 
@@ -150,6 +158,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Causal Inference
 * Causal inference in randomized trials [nature bone marrow transpl](https://www.nature.com/articles/s41409-018-0424-x)
 * A short paper as a primer on Pearl's work as published in the International Journal of Epidemiology [Pearce and Lawlor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841844/#!po=81.5789)
+
+## Bookdown
+* [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 
 
 
