@@ -11,6 +11,8 @@ Just trying to tidy up my browser and prevent further piling of open tabs of 'th
 ## General information on maximum likelihood estimation
 [Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
 
+[Is there always a maximizer for any MLE problem?](https://stats.stackexchange.com/questions/16758/is-there-always-a-maximizer-for-any-mle-problem)
+
 ## Classification vs Prediction
 Frank Harrell's [blog post](https://www.fharrell.com/post/classification/)
 
@@ -24,6 +26,8 @@ Paul Lambert has a nice [website](https://pclambert.net) that includes
 Piece-wise constant hazard model formulated as a Poisson regression model [link](https://data.princeton.edu/wws509/notes/c7s4)
 
 Residual diagnostics in Cox PH model [RPubs](https://rpubs.com/kaz_yos/resid_cox)
+
+Using Time Dependent Covariates and Time Dependent Coefficients in the Cox Model [Therneau](https://cran.r-project.org/web/packages/survival/vignettes/timedep.pdf)
 
 Estimating a [smooth baseline hazard function for the Cox model](https://pdfs.semanticscholar.org/2f32/9b48f674a74253eb428b71ff237365fd4051.pdf) by Patrick Royston.
 
@@ -43,11 +47,19 @@ Furthermore
 
 * Simulating right censored survival data in R [simsurv](https://cran.r-project.org/web/packages/simsurv/vignettes/simsurv_usage.html)
 
+* Performance measures for survival prediction models [link](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-017-0336-2)
+
 ## Bayesian Regression
 * [bamlss: A Lego Toolbox for Flexible Bayesian Regression (and Beyond)](https://arxiv.org/pdf/1909.11784.pdf)
 
 ## Missing data
 * Stef van Buuren's most recent version of [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-JM.html)
+* Research by Bart Mertens, including [mipred](https://cran.r-project.org/web/packages/mipred/vignettes/mipred_for_glm.html), 
+* hmi package for [hierarchical multiple imputation](https://cran.r-project.org/web/packages/hmi/vignettes/myvignette.html)
+
+## Prediction models and uncertainty
+* The uncertainty with using risk prediction models for individual decision making: an exemplar cohort study examining the prediction of cardiovascular disease in English primary care [BMC](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1368-8)
+* Do population-level risk prediction models that use routinely collected health data reliably predict individual risks? [Sci Rep](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6677736/)
 
 
 ## Subgroup analysis / treatment-interactions
@@ -69,6 +81,7 @@ A comparison of several approaches to predict most beneficial treatment class (E
 * [Replicating results for glmnet linear regression using a generic optimizer](https://stats.stackexchange.com/questions/236866/replicating-results-for-glmnet-linear-regression-using-a-generic-optimizer) (Cross Validated)
 * [A lasso for hierarchical interactions](http://dx.doi.org/10.1214/13-AOS1096) (Paper by Tibshirani) and the accompanying package [hierNet](https://cran.r-project.org/web/packages/hierNet/index.html)
 * Linking smoothing splines to ridge regression [crossvalidated](https://stats.stackexchange.com/questions/93749/selection-of-k-knots-in-regression-smoothing-spline-equivalent-to-k-categorical)
+* Freakonometrics [CLASSIFICATION FROM SCRATCH, PENALIZED LASSO LOGISTIC](https://freakonometrics.hypotheses.org/52894) and the referred to [Getting to the Bottom of Regression with Gradient Descent](http://jocelynchi.com/pdf/gettingtothebottom_gradient_descent_R_tutorial.pdf)
 
 
 ## Generalized additive modeling
@@ -100,6 +113,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * Goeman's [penalized](https://cran.r-project.org/web/packages/penalized/penalized.pdf) package for R.
 * Regularization Paths for Regression Models with Grouped Covariates as provided in R package [grpreg](https://cran.r-project.org/web/packages/grpreg/grpreg.pdf)
 * [Convex optimization in R](http://www.econ.uiuc.edu/~roger/research/conopt/coptr.pdf)
+* Simple LARS example in R [link](https://www4.stat.ncsu.edu/~reich/BigData/code/lasso_cd.html)
+* LASSO for general likelihood [CrossValidated](https://stats.stackexchange.com/questions/313790/lasso-for-general-likelihood)
+* [Generalized Lasso Regularization for Regression Models](https://epub.ub.uni-muenchen.de/11708/1/DA_Flexeder.pdf)
 
 ## Variable selection after multiple imputation
 * [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
@@ -120,6 +136,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Multi-level stuff
 * [Visualizing Nested and Cross Random Effects](http://errickson.net/stats-notes/vizrandomeffects.html)
+* [Crossed vs nested random effects: how do they differ and how are they specified correctly in lme4?](https://stats.stackexchange.com/questions/228800/crossed-vs-nested-random-effects-how-do-they-differ-and-how-are-they-specified)
 * [Using R and lme/lmer to fit different two- and three-level longitudinal models](https://rpsychologist.com/r-guide-longitudinal-lme-lmer)
 * [Singular random-effect covariance matrices](https://stats.stackexchange.com/questions/323273/what-to-do-with-random-effects-correlation-that-equals-1-or-1)
 * In a multi-level model, [what are the practical implications of estimating versus not-estimating random effect correlation parameters?](https://stats.stackexchange.com/questions/49832/in-a-multi-level-model-what-are-the-practical-implications-of-estimating-versus/104054#104054)
@@ -128,6 +145,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Assessing prediction model performance
 * Steyerberg et al. [Assessing the performance of prediction models: a framework for some traditional and novel measures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3575184/)
 * [Consistent Estimation of the Expected Brier Scorein General Survival Models with Right-Censored Event Times](https://onlinelibrary.wiley.com/doi/epdf/10.1002/bimj.200610301)
+* [Does ignoring clustering in multicenter data influence the performance of prediction models? A simulation study](https://doi.org/10.1177%2F0962280216668555) by Wynants et al. 
 
 
 ## Stan
@@ -158,6 +176,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## Causal Inference
 * Causal inference in randomized trials [nature bone marrow transpl](https://www.nature.com/articles/s41409-018-0424-x)
 * A short paper as a primer on Pearl's work as published in the International Journal of Epidemiology [Pearce and Lawlor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841844/#!po=81.5789)
+* Armitage lecture by Miguel Hernan [lecture](https://view6.workcast.net/ControlUsher.aspx?cpak=7893749515199787&pak=7155440261855153)
 
 ## Bookdown
 * [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
