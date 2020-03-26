@@ -23,6 +23,8 @@ Paul Lambert has a nice [website](https://pclambert.net) that includes
 
 Piece-wise constant hazard model formulated as a Poisson regression model [link](https://data.princeton.edu/wws509/notes/c7s4)
 
+Residual diagnostics in Cox PH model [RPubs](https://rpubs.com/kaz_yos/resid_cox)
+
 Estimating a [smooth baseline hazard function for the Cox model](https://pdfs.semanticscholar.org/2f32/9b48f674a74253eb428b71ff237365fd4051.pdf) by Patrick Royston.
 
 Some R code for modeling with left truncated and right/interval censored data [link](http://blogs2.datall-analyse.nl/2016/02/19/rcode_left_truncated_censored_data/#more-294) including the likelihood definition and ``optim`` routine. 
@@ -38,6 +40,8 @@ Furthermore
 *  C-statistics for censored survival data [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3079915/)
 
 * Survival intro slides [Stanford](https://web.stanford.edu/~lutian/coursepdf/slideweek1.pdf)
+
+* Simulating right censored survival data in R [simsurv](https://cran.r-project.org/web/packages/simsurv/vignettes/simsurv_usage.html)
 
 ## Missing data
 * Stef van Buuren's most recent version of [Flexible Imputation of Missing Data](https://stefvanbuuren.name/fimd/sec-JM.html)
@@ -59,6 +63,9 @@ A comparison of several approaches to predict most beneficial treatment class (E
 * Hand coding of penalized logistic regression in R [link](https://datascienceplus.com/logistic-regression-regularized-with-optimization/) and/or [link](http://pingax.com/logistic-regression-r-step-step-implementation-part-2/?utm_source=rss&utm_medium=rss&utm_campaign=logistic-regression-r-step-step-implementation-part-2)
 * [Lecture notes on ridge regression](https://arxiv.org/pdf/1509.09169;Lecture) 
 * Post-double-selection LASSO [slides](https://statalasso.github.io/pdf/SwissStataConference2018_AhrensSchaffer.pdf)
+* [Replicating results for glmnet linear regression using a generic optimizer](https://stats.stackexchange.com/questions/236866/replicating-results-for-glmnet-linear-regression-using-a-generic-optimizer) (Cross Validated)
+* [A lasso for hierarchical interactions](http://dx.doi.org/10.1214/13-AOS1096) (Paper by Tibshirani) and the accompanying package [hierNet](https://cran.r-project.org/web/packages/hierNet/index.html)
+* Linking smoothing splines to ridge regression [crossvalidated](https://stats.stackexchange.com/questions/93749/selection-of-k-knots-in-regression-smoothing-spline-equivalent-to-k-categorical)
 
 
 ## Generalized additive modeling
@@ -85,6 +92,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * IRLS for logistic regression [link](https://stats.stackexchange.com/questions/344309/why-using-newtons-method-for-logistic-regression-optimization-is-called-iterati)
 * Introduction to the use of [Langrange multipliers](https://people.eecs.berkeley.edu/~klein/papers/lagrange-multipliers.pdf)
 * Some introductory lectures on the [Lagrangian](https://www.khanacademy.org/math/multivariable-calculus/applications-of-multivariable-derivatives/lagrange-multipliers-and-constrained-optimization/v/the-lagrangian)
+* Optimization problems constrained by parameter sums [link](http://optimizer.r-forge.r-project.org/sumscale16.pdf)
 
 ## Variable selection after multiple imputation
 * [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
@@ -129,10 +137,20 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 ## MIT Stuff
 * [Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm) and the accompanying book and [website](http://math.mit.edu/~gs/learningfromdata/) including solutions to selected problems.
 * [Linear Algebra](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/)
+* MIT 18.01SC Single Variable Calculus, Fall 2010 [lectures](https://archive.org/details/MIT18_01SCF10/MIT18_01SCF10Rec_00_300k.mp4) and [website](http://ocw.mit.edu/18-01SCF10)
+* MIT 18.02SC Multivariable Calculus, Fall 2010 [lectures](https://archive.org/details/MIT18_02SCF10/MIT18_02SCF10Rec_37_300k.mp4) and [website](http://ocw.mit.edu/18-02SCF10)
+* MIT 18.05 Introduction to Probability and Statistics, Spring 2014 [lectures](https://archive.org/details/MIT18.05S14)
+* MIT OCW: 18.650 Statistics for Applications, Fall 2016  [lectures](https://archive.org/details/MIT18.650F16/MIT18_650F16_lec24_300k.mp4)
+
 
 ## Julia
 * Learning Julia [link](https://juliacomputing.com/training/#training-2).
 * Julia academy courses to get things started [link](https://juliaacademy.com)
+
+## Causal Inference
+* Causal inference in randomized trials [nature bone marrow transpl](https://www.nature.com/articles/s41409-018-0424-x)
+* A short paper as a primer on Pearl's work as published in the International Journal of Epidemiology [Pearce and Lawlor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841844/#!po=81.5789)
+
 
 
 
