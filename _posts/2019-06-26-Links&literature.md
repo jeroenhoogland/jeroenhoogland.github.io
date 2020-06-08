@@ -101,6 +101,8 @@ Simon Wood's [website](https://people.maths.bris.ac.uk/~sw15190/) contains links
 The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/splines2-intro.html) provides functions constructing B-splines, integral of B-splines, monotone splines (M-splines) and its integral (I-splines), convex splines (C-splines), and their derivatives.
 
 
+
+
 ## Optimization
 
 * A nice post on [Which optimization algorithm to choose?](https://cran.r-project.org/web/packages/fitdistrplus/vignettes/Optimalgo.html#log-likelihood-function-and-its-gradient-for-beta-distribution)
@@ -116,6 +118,14 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * Simple LARS example in R [link](https://www4.stat.ncsu.edu/~reich/BigData/code/lasso_cd.html)
 * LASSO for general likelihood [CrossValidated](https://stats.stackexchange.com/questions/313790/lasso-for-general-likelihood)
 * [Generalized Lasso Regularization for Regression Models](https://epub.ub.uni-muenchen.de/11708/1/DA_Flexeder.pdf)
+* [Convex Optimization in R](https://machinelearningmastery.com/convex-optimization-in-r/)
+* [An overview of gradient descent optimization algorithms](https://ruder.io/optimizing-gradient-descent/), including descriptions of batch gradient descent, stochastic gradient descent, mini-batch gradient descent, Nesterov accelerated gradient, Adagrad, AdaMax, and more.
+
+
+## Directional derivatives
+* Basic description and examples [Paul's Online Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/DirectionalDeriv.aspx)
+* Nice exposition on [Math Libretexts](https://math.libretexts.org/Courses/University_of_California%2C_Davis/UCD_Mat_21C%3A_Multivariate_Calculus/13%3A_Partial_Derivatives/13.5%3A_Directional_Derivatives_and_Gradient_Vectors)
+
 
 ## Variable selection after multiple imputation
 * [Stef van Buuren's suggestions](https://stats.stackexchange.com/questions/46719/multiple-imputation-and-model-selection) on Stack Exchange (including refs to book sections and Wood et al. 2008) 
@@ -133,6 +143,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * (World Wide) Multivariable calculus [lectures](https://www.youtube.com/playlist?list=PLgKTLlHQn9510xXzi9tlZYU38XFs279qv) and [textbook](http://centerofmath.org/textbooks/multicalc/index.html)
 * [MATH 19520 (Mathematics for Social Sciences)](https://vipulnaik.com/math-195/)
 * Nice and simple introduction to [moment generating functions](https://towardsdatascience.com/moment-generating-function-explained-27821a739035)
+* Short recap of Gradient, Jacobian, and Hessian [link](https://www.value-at-risk.net/functions/) 
 
 ## Multi-level stuff
 * [Visualizing Nested and Cross Random Effects](http://errickson.net/stats-notes/vizrandomeffects.html)
@@ -147,6 +158,13 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [Consistent Estimation of the Expected Brier Scorein General Survival Models with Right-Censored Event Times](https://onlinelibrary.wiley.com/doi/epdf/10.1002/bimj.200610301)
 * [Does ignoring clustering in multicenter data influence the performance of prediction models? A simulation study](https://doi.org/10.1177%2F0962280216668555) by Wynants et al. 
 
+## Sample size
+* [Calculating the sample size required for developing a clinical prediction model](https://doi.org/10.1136/bmj.m441) by R. Riley et al.
+
+## Data decomposition and reduction
+* Singular value decomposition and PCA [link](https://medium.com/@jonathan_hui/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)
+
+
 
 ## Stan
 * Stan Reference Manual [link](https://mc-stan.org/docs/2_21/reference-manual/index.html)
@@ -159,6 +177,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Fun stuff
 * [Stein's paradox](https://en.wikipedia.org/wiki/Stein%27s_example)
+* All of the 3BLUE1BROMN stuff, ordered by season and series [here](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
 ## MIT Stuff
 * [Matrix Methods in Data Analysis, Signal Processing, and Machine Learning](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018/index.htm) and the accompanying book and [website](http://math.mit.edu/~gs/learningfromdata/) including solutions to selected problems.
@@ -180,7 +199,16 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Bookdown
 * [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
+* Nice short overview on prediction modeling in general by Eduardo García Portugués, including non-parametric regression [link[(https://bookdown.org/egarpor/PM-UC3M/)
 
+## Covid-19
+* Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal (Wynants et al.)(https://doi.org/10.1136/bmj.m1328)
+* [CoronaWatchNL](https://github.com/J535D165/CoronaWatchNL) on Github
 
+## Organisations
+* [RSS](https://rss.org.uk)
+* [VVSOR](https://www.vvsor.nl)
+* [Alan Turing Institute](https://www.turing.ac.uk) and their [Theory and Method Challenge Fortnights](https://www.turing.ac.uk/research/theory-and-method-challenge-fortnights). For instance, the on on [Prediction algorithms with a causal interpretation](https://www.turing.ac.uk/research/theory-and-method-challenge-fortnights/prediction-algorithms-causal-interpretation)
+* [Statistical Modelling Society](http://www.statmod.org/workshops.htm) and their International Workshop on Statistical Modelling (IWSM).
 
 
