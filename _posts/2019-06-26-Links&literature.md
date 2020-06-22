@@ -60,6 +60,7 @@ Furthermore
 ## Meta-analysis
 * General notes on aggregate versus IPD-MA [link](https://www.publichealth.columbia.edu/research/population-health-methods/meta-analyses-aggregate-data-or-individual-participant-data-meta-analyses-retrospectively-and)
 * Meta-analysis of Individual Participant Data: Rationale, Conduct, and Reporting in BMJ (2010) [Riley et al.](https://doi.org/10.1136/bmj.c221)
+* Cochrane's 'Everything you wanted to know about IPD MA - series' [link](https://methods.cochrane.org/ipdma/everything-you-wanted-know-about-ipd-ma-series)
 
 ## Prediction models and uncertainty
 * The uncertainty with using risk prediction models for individual decision making: an exemplar cohort study examining the prediction of cardiovascular disease in English primary care [BMC](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1368-8)
