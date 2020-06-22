@@ -57,6 +57,10 @@ Furthermore
 * Research by Bart Mertens, including [mipred](https://cran.r-project.org/web/packages/mipred/vignettes/mipred_for_glm.html), 
 * hmi package for [hierarchical multiple imputation](https://cran.r-project.org/web/packages/hmi/vignettes/myvignette.html)
 
+## Meta-analysis
+* General notes on aggregate versus IPD-MA [link](https://www.publichealth.columbia.edu/research/population-health-methods/meta-analyses-aggregate-data-or-individual-participant-data-meta-analyses-retrospectively-and)
+* Meta-analysis of Individual Participant Data: Rationale, Conduct, and Reporting in BMJ (2010) [Riley et al.](https://doi.org/10.1136/bmj.c221)
+
 ## Prediction models and uncertainty
 * The uncertainty with using risk prediction models for individual decision making: an exemplar cohort study examining the prediction of cardiovascular disease in English primary care [BMC](https://bmcmedicine.biomedcentral.com/articles/10.1186/s12916-019-1368-8)
 * Do population-level risk prediction models that use routinely collected health data reliably predict individual risks? [Sci Rep](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6677736/)
