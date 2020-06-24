@@ -206,6 +206,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
 * Nice short overview on prediction modeling in general by Eduardo García Portugués, including non-parametric regression [link[(https://bookdown.org/egarpor/PM-UC3M/)
 
+## Nice solutions for typical problems in R
+* Get inner, outer, left, and right joins [link](https://stackoverflow.com/questions/1299871/how-to-join-merge-data-frames-inner-outer-left-right)
+
 ## Covid-19
 * Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal (Wynants et al.)(https://doi.org/10.1136/bmj.m1328)
 * [CoronaWatchNL](https://github.com/J535D165/CoronaWatchNL) on Github
