@@ -185,7 +185,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Data decomposition and reduction
 * Singular value decomposition and PCA [link](https://medium.com/@jonathan_hui/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)
-* Nice stats exchange contribution on PCA and its relation to eigenvalues and singular value decomposition [link](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
+* Nice stats exchange contribution on PCA and its relation to eigenvalues and singular value decomposition [link](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues). See also [link](https://stats.stackexchange.com/questions/134282/relationship-between-svd-and-pca-how-to-use-svd-to-perform-pca).
 * Very nice and comprehensive tutorial on the inner workings of PCA [link](https://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf)
 
 
