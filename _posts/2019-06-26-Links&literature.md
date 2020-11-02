@@ -8,8 +8,18 @@ tags: [survival, test]
 
 Just trying to tidy up my browser and prevent further piling of open tabs of 'things to do'...
 
+## Of general interest
+* The [Data Methods forum](https://discourse.datamethods.org) discusses many many many interesting topics (e.g. [Reference Collection to push back against “Common Statistical Myths”](https://discourse.datamethods.org/t/reference-collection-to-push-back-against-common-statistical-myths/1787), or [Should we ignore covariate imbalance and stop presenting a stratified ‘table one’ for randomized trials?](https://discourse.datamethods.org/t/should-we-ignore-covariate-imbalance-and-stop-presenting-a-stratified-table-one-for-randomized-trials/547)
+* Frank Harrell's [blog](https://www.fharrell.com/), including posts on [Assessing Heterogeneity of Treatment Effect](https://www.fharrell.com/post/varyor/), and [Added Predictive Value](https://www.fharrell.com/post/addvalue/).
+
+## ISCB 2020
+* [Nicole Erler](https://www.nerler.com) on JointAI: [Joint Analysis and Imputation of Incomplete Data in R](https://www.nerler.com/publication/erler2019jointai/). Citing:"JointAI provides functions for Bayesian inference with generalized linear and generalized linear mixed models as well as survival models, that take arguments analogous to their corresponding and well known complete data versions from base R and other packages." Also see [arXiv](https://arxiv.org/abs/1907.10867).
+
 ## General information on maximum likelihood estimation
 [Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
+
+## Exchangeability
+* [The Concept of Exchangeability and its Applications](https://www.uv.es/~bernardo/Exchangeability.pdf)
 
 [Is there always a maximizer for any MLE problem?](https://stats.stackexchange.com/questions/16758/is-there-always-a-maximizer-for-any-mle-problem)
 
@@ -49,6 +59,10 @@ Furthermore
 
 * Performance measures for survival prediction models [link](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-017-0336-2)
 
+* Comparing the Weibull and Cox PH model [link](https://core.ac.uk/download/pdf/5172563.pdf)
+
+* Very nice blog by Devin Incerti on the basics of parametric survival modeling, including specification of frequently used distribtions, many insightful plots, and R code. Inludes PH parametrization of the Weibull as well. [link](https://devinincerti.com/2019/06/18/parametric_survival.html#weibull-distribution-ph)
+
 ## Bayesian Regression
 * [bamlss: A Lego Toolbox for Flexible Bayesian Regression (and Beyond)](https://arxiv.org/pdf/1909.11784.pdf)
 
@@ -87,7 +101,7 @@ A comparison of several approaches to predict most beneficial treatment class (E
 * [A lasso for hierarchical interactions](http://dx.doi.org/10.1214/13-AOS1096) (Paper by Tibshirani) and the accompanying package [hierNet](https://cran.r-project.org/web/packages/hierNet/index.html)
 * Linking smoothing splines to ridge regression [crossvalidated](https://stats.stackexchange.com/questions/93749/selection-of-k-knots-in-regression-smoothing-spline-equivalent-to-k-categorical)
 * Freakonometrics [CLASSIFICATION FROM SCRATCH, PENALIZED LASSO LOGISTIC](https://freakonometrics.hypotheses.org/52894) and the referred to [Getting to the Bottom of Regression with Gradient Descent](http://jocelynchi.com/pdf/gettingtothebottom_gradient_descent_R_tutorial.pdf)
-
+* Stats Exchange on lasso versus versus group lasso [link](https://stats.stackexchange.com/questions/214325/why-use-group-lasso-instead-of-lasso)
 
 ## Generalized additive modeling
 Simon Wood's [website](https://people.maths.bris.ac.uk/~sw15190/) contains links to a (free) [Core Statistics book](https://people.maths.bris.ac.uk/~sw15190/core-statistics.pdf) and info on his new 2nd edition of 'Generalized Additive Models: An Introduction with R' ([errata](https://people.maths.bris.ac.uk/~sw15190/igam/errata.pdf) and sotware changes affecting its content). He also has slides for a lecture on [GAMs, GAMMs and other penalized GLMs using mgcv in R](https://people.maths.bris.ac.uk/~sw15190/talks/gam-mgcv.pdf) online.
@@ -97,9 +111,12 @@ Simon Wood's [website](https://people.maths.bris.ac.uk/~sw15190/) contains links
 
 * Article [Optimal Full Matching and Related Designs via Network Flows](http://dept.stat.lsa.umich.edu/~bbh/hansenKlopfer2006.pdf)
 * The accompanying [optmatch package](http://ftp.auckland.ac.nz/software/CRAN/doc/packages/optmatch.pdf) and its [vignette](http://ftp.auckland.ac.nz/software/CRAN/doc/vignettes/optmatch/optmatch.pdf).
+* [Vigenette](https://cran.r-project.org/web/packages/optmatch/vignettes/fullmatch-vignette.pdf) for matching in R using the optmatch and RItools packages.
 * Some ideas to speed up R base's ``comb`` functionality on [link](https://stackoverflow.com/questions/26828301/faster-version-of-combn.)
 * [Finding the best matching pairwise points from 2 vectors](https://stackoverflow.com/questions/13961493/finding-the-best-matching-pairwise-points-from-2-vectors)
 * Gay King's [MatchIt: Nonparametric Preprocessing for Parametric Causal Inference](https://gking.harvard.edu/matchit) and [WhatIf: Software for Evaluating Counterfactuals](https://gking.harvard.edu/whatif)
+* Short blog on Matching Algorithms (Graph Theory) [link](https://brilliant.org/wiki/matching-algorithms/)
+
 
 
 ## Splines
@@ -125,6 +142,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [Generalized Lasso Regularization for Regression Models](https://epub.ub.uni-muenchen.de/11708/1/DA_Flexeder.pdf)
 * [Convex Optimization in R](https://machinelearningmastery.com/convex-optimization-in-r/)
 * [An overview of gradient descent optimization algorithms](https://ruder.io/optimizing-gradient-descent/), including descriptions of batch gradient descent, stochastic gradient descent, mini-batch gradient descent, Nesterov accelerated gradient, Adagrad, AdaMax, and more.
+* Manuscript on Saturating Splines and Feature Selection by Boyd and Hastie [link](https://arxiv.org/pdf/1609.06764.pdf)
 
 
 ## Directional derivatives
@@ -168,11 +186,13 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Data decomposition and reduction
 * Singular value decomposition and PCA [link](https://medium.com/@jonathan_hui/machine-learning-singular-value-decomposition-svd-principal-component-analysis-pca-1d45e885e491)
-
+* Nice stats exchange contribution on PCA and its relation to eigenvalues and singular value decomposition [link](https://stats.stackexchange.com/questions/2691/making-sense-of-principal-component-analysis-eigenvectors-eigenvalues)
+* Very nice and comprehensive tutorial on the inner workings of PCA [link](https://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf)
 
 
 ## Stan
 * Stan Reference Manual [link](https://mc-stan.org/docs/2_21/reference-manual/index.html)
+* Stan tutorials [link](https://mc-stan.org/users/documentation/tutorials)
 * [bayesplot](https://mc-stan.org/bayesplot/articles/plotting-mcmc-draws.html) package.
 * [splines](https://mc-stan.org/users/documentation/case-studies/splines_in_stan.html) in stan.
 
@@ -201,6 +221,7 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * Causal inference in randomized trials [nature bone marrow transpl](https://www.nature.com/articles/s41409-018-0424-x)
 * A short paper as a primer on Pearl's work as published in the International Journal of Epidemiology [Pearce and Lawlor](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5841844/#!po=81.5789)
 * Armitage lecture by Miguel Hernan [lecture](https://view6.workcast.net/ControlUsher.aspx?cpak=7893749515199787&pak=7155440261855153)
+* [A Brief Review of Counterfactual Causality](https://www.ssc.wisc.edu/~felwert/causality/wp-content/uploads/2013/06/1-Elwert_Causal_Intro.pdf) 
 
 ## Bookdown
 * [bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)
@@ -208,6 +229,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 
 ## Nice solutions for typical problems in R
 * Get inner, outer, left, and right joins [link](https://stackoverflow.com/questions/1299871/how-to-join-merge-data-frames-inner-outer-left-right)
+
+## Assignment problem
+* Easy example of the assignment problem as a linear program, solved using the lpSolve package in R [link](https://towardsdatascience.com/operations-research-in-r-assignment-problem-4a1f92a09ab)
 
 ## Covid-19
 * Prediction models for diagnosis and prognosis of covid-19: systematic review and critical appraisal (Wynants et al.)(https://doi.org/10.1136/bmj.m1328)
@@ -218,5 +242,9 @@ The [splines2](https://cran.r-project.org/web/packages/splines2/vignettes/spline
 * [VVSOR](https://www.vvsor.nl)
 * [Alan Turing Institute](https://www.turing.ac.uk) and their [Theory and Method Challenge Fortnights](https://www.turing.ac.uk/research/theory-and-method-challenge-fortnights). For instance, the on on [Prediction algorithms with a causal interpretation](https://www.turing.ac.uk/research/theory-and-method-challenge-fortnights/prediction-algorithms-causal-interpretation)
 * [Statistical Modelling Society](http://www.statmod.org/workshops.htm) and their International Workshop on Statistical Modelling (IWSM).
+
+## Writing
+* [Consequences of Erudite Vernacular Utilized Irrespective of Necessity: Problems with Using Long Words Needlessly](http://www2.psych.utoronto.ca/users/psy3001/files/simple%20writing.pdf)
+* 
 
 
