@@ -16,12 +16,11 @@ Just trying to tidy up my browser and prevent further piling of open tabs of 'th
 * [Nicole Erler](https://www.nerler.com) on JointAI: [Joint Analysis and Imputation of Incomplete Data in R](https://www.nerler.com/publication/erler2019jointai/). Citing:"JointAI provides functions for Bayesian inference with generalized linear and generalized linear mixed models as well as survival models, that take arguments analogous to their corresponding and well known complete data versions from base R and other packages." Also see [arXiv](https://arxiv.org/abs/1907.10867).
 
 ## General information on maximum likelihood estimation
-[Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
+* [Maximum Likelihood, Profile Likelihood, and Penalized Likelihood: A Primer](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3873110/pdf/kwt245.pdf)
+* [Is there always a maximizer for any MLE problem?](https://stats.stackexchange.com/questions/16758/is-there-always-a-maximizer-for-any-mle-problem)
 
 ## Exchangeability
 * [The Concept of Exchangeability and its Applications](https://www.uv.es/~bernardo/Exchangeability.pdf)
-
-[Is there always a maximizer for any MLE problem?](https://stats.stackexchange.com/questions/16758/is-there-always-a-maximizer-for-any-mle-problem)
 
 ## Classification vs Prediction
 Frank Harrell's [blog post](https://www.fharrell.com/post/classification/)
